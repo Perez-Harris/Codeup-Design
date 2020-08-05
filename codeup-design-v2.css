@@ -6,10 +6,7 @@ body {
 }
 /*font-family: 'Abel', sans-serif;
 font-family: 'Anton', sans-serif;*/
-.gray-bar {
-    background-color: #e6e6e6;
-    height: 3em;
-}
+
 .white-bar {
     background-color: white;
     height: 3em;
@@ -128,9 +125,9 @@ li {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .card2, .card3, .card4 {
-        display: none;
-    }
+    /*.card2, .card3, .card4 {*/
+    /*    display: block;*/
+    /*}*/
     .logo {
 
     }
@@ -141,9 +138,9 @@ li {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .card2, .card3, .card4 {
-        display: block;
-    }
+    /*.card2, .card3, .card4 {*/
+    /*    display: none;*/
+    /*}*/
     .logo {
 
     }
@@ -154,9 +151,9 @@ li {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .card2, .card3, .card4 {
-        display: block;
-    }
+    /*.card2, .card3, .card4 {*/
+    /*    display: none;*/
+    /*}*/
     .logo {
 
     }

@@ -1,0 +1,122 @@
+body {
+    text-transform: uppercase;
+    background-color: #e6e6e6;
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+}
+/*font-family: 'Abel', sans-serif;
+font-family: 'Anton', sans-serif;*/
+.gray-bar {
+    background-color: #e6e6e6;
+    height: 3em;
+}
+.white-bar {
+    background-color: white;
+    height: 3em;
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    /*	font-size: 64px;*/
+}
+h3 {
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    /*	font-size: 40px;*/
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.logo, .circle{
+    width: 108px;
+    height: 108px;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    margin: 1em;
+}
+.circle, .icon {
+    border-radius: 50%;
+    font-family: "Anton", sans-serif;
+}
+.design-circle {
+    background: #e6563b;
+}
+
+.develop-circle {
+    background: #dea03d;
+}
+
+.support-circle {
+    background: #7cb06c;
+}
+
+.host-circle {
+    background: #00aba9;
+}
+.card-section1 {
+    display: flex;
+}
+.card-section2 {
+    display: flex;
+}
+.card {
+    width: 18rem;
+    margin: 1em;
+    border: none;
+
+}
+.card-img-top {
+    border: 8px solid #f0f0f0;
+}
+.card-body {
+    padding: none;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: flex-start;
+}
+.card-text {
+    flex-grow: 1;
+    margin: none;
+    padding-top: .5em;
+    font-size: 12px;
+}
+.icon {
+    height: 18px;
+    width: 18px;
+}
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

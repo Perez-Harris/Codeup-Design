@@ -13,6 +13,12 @@ font-family: 'Anton', sans-serif;*/
 .white-bar {
     background-color: white;
     height: 3em;
+    position: relative;
+    top: 3em;
+    z-index: 1;
+}
+.logo {
+
 }
 h1 {
     font-family: 'Anton', sans-serif;
@@ -24,11 +30,30 @@ h3 {
     font-weight: bolder;
     /*	font-size: 40px;*/
 }
+.nav-ul {
+    position: relative;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style-type: none;
+    margin: 0 .25em;
+}
 .main-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .circle-section {
     display: flex;
@@ -103,17 +128,41 @@ h3 {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    .card2, .card3, .card4 {
+        display: none;
+    }
+    .logo {
 
+    }
+    li {
+
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    .card2, .card3, .card4 {
+        display: block;
+    }
+    .logo {
 
+    }
+    li {
+
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .card2, .card3, .card4 {
+        display: block;
+    }
+    .logo {
 
+    }
+    li {
+
+    }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */

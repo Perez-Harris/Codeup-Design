@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 body {
     text-transform: uppercase;
     background-color: #e6e6e6;
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
-
 }
 /*font-family: 'Abel', sans-serif;
 font-family: 'Anton', sans-serif;*/
@@ -13,6 +12,12 @@ font-family: 'Anton', sans-serif;*/
     position: relative;
     top: 3em;
     z-index: 1;
+}
+.no-gutters {
+    background: #e6e6e6;
+}
+.aside-image {
+
 }
 .logo {
 
@@ -51,6 +56,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
 }
 .circle-section {
     display: flex;
@@ -104,10 +110,7 @@ li {
     border: 8px solid #f0f0f0;
 }
 .card-body {
-    padding: none;
     background-color: #e6e6e6;
-    display: flex;
-    align-items: flex-start;
 }
 .card-text {
     flex-grow: 1;

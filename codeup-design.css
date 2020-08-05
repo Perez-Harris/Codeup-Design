@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+body, .card-body {
+    background: #E6E6E6;
+}
+.logo, .circle{
+    width: 150px;
+    height: 150px;
+}
+.icon {
+    height: 18px;
+    width: 18px;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+}
+.circle, .icon {
+    border-radius: 50%;
+}
+
+.design-circle {
+    background: #e6563b;
+}
+
+.develop-circle {
+    background: #dea03d;
+}
+
+.support-circle {
+    background: #7cb06c;
+}
+
+.host-circle {
+    background: #00aba9;
+}
+
+
+

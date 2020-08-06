@@ -3,49 +3,31 @@ body {
     text-transform: uppercase;
     background-color: #e6e6e6;
 }
-/*font-family: 'Abel', sans-serif;
-font-family: 'Anton', sans-serif;*/
-
-.white-bar {
-    background-color: white;
-    height: 3em;
-    position: relative;
-    top: 3em;
-    z-index: 1;
+.top-row {
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
 }
 .no-gutters {
     background: #e6e6e6;
 }
-.aside-image {
-
-}
-.logo {
-
-}
-h1 {
+h1, h3 {
     font-family: 'Anton', sans-serif;
     font-weight: bolder;
-    /*	font-size: 64px;*/
 }
-h3 {
-    font-family: 'Anton', sans-serif;
-    font-weight: bolder;
-    /*	font-size: 40px;*/
-}
-.nav-ul {
+
+/* .nav-ul {
     position: relative;
     top: 0;
     z-index: 2;
     display: flex;
     align-items: center;
-}
-ul {
-    display: flex;
-}
-li {
+} */
+
+/* li {
     list-style-type: none;
     margin: 0 .25em;
-}
+} */
 .main-container {
     display: flex;
     flex-direction: column;

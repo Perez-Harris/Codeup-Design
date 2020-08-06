@@ -11,9 +11,6 @@ body, .card-body {
     width: 18px;
 }
 .circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 5px solid white;
 }
 .circle, .icon {
@@ -36,42 +33,14 @@ body, .card-body {
 .host-circle {
     background: #00aba9;
 }
-
-.container-wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+ 
 .card {
-    margin: 1em;
     border: none;
 }
 .card-body {
     font-size: .8em;
 }
 
-/* // Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap */
 
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    .container-wrap {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .circle {
-        height: 108px;
-        width: 108px;
-    }
-  
- }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }

@@ -8,6 +8,13 @@ body {
     display: flex;
     align-items: center;
 }
+.top-row {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: space-between;
+    width: 100%;
+
+}
 .no-gutters {
     background: #e6e6e6;
 }
@@ -16,18 +23,6 @@ h1, h3 {
     font-weight: bolder;
 }
 
-/* .nav-ul {
-    position: relative;
-    top: 0;
-    z-index: 2;
-    display: flex;
-    align-items: center;
-} */
-
-/* li {
-    list-style-type: none;
-    margin: 0 .25em;
-} */
 .main-container {
     display: flex;
     flex-direction: column;
@@ -93,6 +88,7 @@ h1, h3 {
 }
 .card-body {
     background-color: #e6e6e6;
+   
 }
 .card-text {
     flex-grow: 1;
@@ -104,50 +100,23 @@ h1, h3 {
     height: 18px;
     width: 18px;
 }
-
-/* // Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap */
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    /*.card2, .card3, .card4 {*/
-    /*    display: block;*/
-    /*}*/
-    .logo {
-
-    }
-    li {
-
-    }
+.aside-image {
+    width: 60px;
+    height: 60px;
 }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    /*.card2, .card3, .card4 {*/
-    /*    display: none;*/
-    /*}*/
-    .logo {
-
-    }
-    li {
-
-    }
+.media-icon {
+    height: 30px;
+    width: 30px;
+}
+.twitter-icon {
+    color: #1DA1F2;
+}
+.font-anton {
+    font-family: "Anton", sans-serif;
 }
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    /*.card2, .card3, .card4 {*/
-    /*    display: none;*/
-    /*}*/
-    .logo {
 
-    }
-    li {
 
-    }
-}
 
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
 
-}

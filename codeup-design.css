@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
-body, .card-body {
+body {
     background: #E6E6E6;
+    font-family: 'Anton', sans-serif;
 }
+.font-abel {
+    font-family: 'Abel', sans-serif;
+}
+
 .logo, .circle{
     width: 108px;
     height: 108px;
@@ -10,37 +15,66 @@ body, .card-body {
     height: 18px;
     width: 18px;
 }
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.top-row {
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+.main .top-row {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: space-between;
+}
+
+
 .circle {
     border: 5px solid white;
 }
+
 .circle, .icon {
     border-radius: 50%;
     font-family: "Anton", sans-serif;
 }
 
-.design-circle {
+.bg-red {
     background: #e6563b;
 }
 
-.develop-circle {
+.bg-orange {
     background: #dea03d;
 }
 
-.support-circle {
+.bg-green {
     background: #7cb06c;
 }
 
-.host-circle {
+.bg-blue {
     background: #00aba9;
 }
  
 .card {
     border: none;
 }
+
+.card-container {
+    width: 18rem;
+}
+
 .card-body {
     font-size: .8em;
 }
 
-
+.media-icon {
+    height: 30px;
+    width: 30px;
+}
+.twitter-icon {
+    color: #1DA1F2;
+}
 
 

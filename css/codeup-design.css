@@ -16,11 +16,14 @@ body {
 .no-gutters {
     background: #e6e6e6;
 }
-h1, h3 {
+
+.font-anton {
     font-family: 'Anton', sans-serif;
     font-weight: bolder;
 }
-
+.font-abel {
+    font-family: 'Abel', sans-serif;
+}
 .main-container {
     display: flex;
     flex-direction: column;

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 body {
     background-color: #e6e6e6;
+    text-transform: uppercase;
 }
 
 .top-row {
@@ -86,6 +87,7 @@ body {
     margin: none;
     padding-top: .5em;
     font-size: 12px;
+    text-transform: lowercase;
 }
 .icon {
     height: 18px;
@@ -127,7 +129,6 @@ body {
         height: 105px;
         width: 105px;
     }
-}
 
 @media (min-width: 992px) { 
     .top-row {

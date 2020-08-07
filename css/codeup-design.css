@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 body {
-    text-transform: uppercase;
     background-color: #e6e6e6;
 }
-.top-row {
-    height: 3.5rem;
-    display: flex;
-    align-items: center;
-}
-.top-row {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
-    justify-content: space-between;
-    width: 100%;
 
+.top-row {
+    z-index: 50;
+}
+.bg-white {
+    position: absolute;
+    top: 20px;
+    height: 50px;
+    width: 100%;
+    background-color: #f7f7f7;
 }
 .no-gutters {
     background: #e6e6e6;
@@ -45,6 +43,11 @@ h1, h3 {
     width: 108px;
     height: 108px;
 }
+.circle, .icon {
+    border-radius: 50%;
+    font-family: "Anton", sans-serif;
+}
+
 .circle {
     display: flex;
     justify-content: center;
@@ -52,10 +55,7 @@ h1, h3 {
     border: 5px solid white;
     margin: 1em;
 }
-.circle, .icon {
-    border-radius: 50%;
-    font-family: "Anton", sans-serif;
-}
+
 .bg-red {
     background: #e6563b;
 }
@@ -119,4 +119,55 @@ h1, h3 {
 
 
 
+@media (min-width: 576px) { 
+    .top-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+    .logo {
+        height: 105px;
+        width: 105px;
+    }
+}
 
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .top-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        text-align: left;
+        width: 100%;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+    .cd {
+        margin-left: 1em;
+        flex-grow: 1;
+    }
+    .logo {
+        height: 105px;
+        width: 105px;
+    }
+   
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */

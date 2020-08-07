@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
     integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
   <!-- linked CSS Stylesheet -->
-  <link rel="stylesheet" type="text/css" href="codeup-design-v2.css">
+  <link rel="stylesheet" type="text/css" href="css/codeup-design.css">
   <script src="https://kit.fontawesome.com/e1cff5260c.js" crossorigin="anonymous"></script>
 
   <title>Codeup Design</title>
@@ -21,9 +21,9 @@
   <!-- SVG Symbols -->
   <i data-fa-symbol="twitter-icon" class="fab fa-twitter fa-fw"></i>
 
-
   <main class="container main-container">
-    <div class="top-row mt-4 pt-2 px-4">
+    
+    <!-- <div class="top-row mt-4 pt-2 px-4">
       <div class="d-flex align-items-center flex-wrap">
         <a class="nav-link" href="#"><img class="logo" src="images/logo.png" alt="codeup design logo"></a>
         <h3 class="h4 h-25">codeup design</h3>
@@ -44,16 +44,72 @@
           </li>
         </ul>
       </nav>
+    </div> -->
+    <div class="bg-white"></div>
+    <!-- xs nav -->
+    <div class="top-row d-flex flex-column align-items-center justify-content-between d-block d-sm-none">
+      <div class="d-flex flex-column align-items-center">
+        <a class="nav-link" href="#"><img class="logo" src="images/logo.png" alt="codeup design logo"></a>
+        <h3 class="text-lowercase">codeup design</h3>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item px-1">
+            <a href="#" class="nav-link text-dark text-uppercase">services</a>
+          </li>
+          <li class="nav-item px-1">
+            <a href="" class="nav-link text-dark text-uppercase">work</a>
+          </li>
+          <li class="nav-item px-1">
+            <a href="" class="nav-link text-dark text-uppercase">blog</a>
+          </li>
+          <li class="nav-item px-1">
+            <a href="" class="nav-link text-dark text-uppercase">contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
+    <!-- sm nav -->
+    <div class="nav-container top-row d-none d-sm-block d-md-none">
+      <div>
+          <ul>
+              <li><a href="#" class="nav-link text-dark text-uppercase">services</a></li>
+              <li><a href="#" class="nav-link text-dark text-uppercase">work</a></li>
+              <li>
+                <a class="nav-link" href="#"><img class="logo" src="images/logo.png" alt="codeup design logo"></a>
+              </li>
+              <li><a href="#" class="nav-link text-dark text-uppercase">blog</a></li>
+              <li><a href="#" class="nav-link text-dark text-uppercase">contact</a></li>
+          </ul>
+          <h3 class="cd">codeup design</h3>
+      </div>
+  </div>
+    <!-- md/lg nav -->
+    <div class="md-nav-container d-none d-md-block ">
+      <div class="top-row">
+          <img class="logo" src="images/logo.png" alt="codeup design logo">
+          <h3 class="cd">codeup design</h3>
+          <ul class="nav">
+              <li class="nav-item"><a class="nav-link" href="#" class="nav-link text-uppercase">services</a></li>
+              <li class="nav-item"><a class="nav-link" href="#" class="nav-link text-uppercase">work</a></li>
+              <li class="nav-item"><a class="nav-link" href="#" class="nav-link text-uppercase">blog</a></li>
+              <li class="nav-item"><a class="nav-link" href="#" class="nav-link text-uppercase">contact</a></li>
+          </ul>
+      </div>
+  </div>
+
+
+
+
     <h1 class="text-center mt-5">Visual Design & Web Development</h1>
-    <h3 class="text-center">From Park City, Utah</h3>
+    <h3 class="text-center text-uppercase">From Park City, Utah</h3>
     <!-- circles -->
     <section class="circle-section flex-container ">
-      <div class="circle design-circle">Design</div>
-      <div class="circle develop-circle">Develop</div>
-      <div class="circle support-circle">Support</div>
-      <div class="circle host-circle">Host</div>
+      <div class="circle text-uppercase text-white bg-red">Design</div>
+      <div class="circle text-uppercase text-white bg-orange">Develop</div>
+      <div class="circle text-uppercase text-white bg-green">Support</div>
+      <div class="circle text-uppercase text-white bg-blue">Host</div>
     </section>
     <hr>
     <!-- cards -->
@@ -64,50 +120,50 @@
           <div class="card card1">
             <img src="images/apple-ipad.jpg" class="card-img-top" alt="iPad Pro with apples">
             <div class="card-body p-0 d-flex align-items-start">
-              <p class="card-text">Featured Project</p>
+              <p class="card-text text-uppercase">Featured Project</p>
               <div>
-                <span class="badge design-circle icon">d</span>
-                <span class="badge design-circle icon">d</span>
-                <span class="badge support-circle icon">s</span>
-                <span class="badge host-circle icon">h</span>
+                <span class="badge bg-red icon">d</span>
+                <span class="badge bg-orange icon">d</span>
+                <span class="badge bg-green icon">s</span>
+                <span class="badge bg-blue icon">h</span>
               </div>
             </div>
           </div>
           <div class="card d-none d-md-block card2">
-            <img src="images/apple-ipad.jpg" class="card-img-top" alt="iPad Pro with apples">
+            <img src="images/macbook.jpg" class="card-img-top" alt="iPad Pro with apples">
             <div class="card-body p-0 d-flex align-items-start">
-              <p class="card-text">Featured Project</p>
+              <p class="card-text text-uppercase">Featured Project</p>
               <div>
-                <span class="badge design-circle icon">d</span>
-                <span class="badge design-circle icon">d</span>
-                <span class="badge support-circle icon">s</span>
-                <span class="badge host-circle icon">h</span>
+                <span class="badge bg-red icon">d</span>
+                <span class="badge bg-orange icon">d</span>
+                <span class="badge bg-green icon">s</span>
+                <span class="badge bg-blue icon">h</span>
               </div>
             </div>
           </div>
         </section>
         <section class="card-section2 flex-container">
           <div class="card d-none d-md-block card3">
-            <img src="images/apple-ipad.jpg" class="card-img-top" alt="iPad Pro with apples">
+            <img src="images/man.jpg" class="card-img-top" alt="iPad Pro with apples">
             <div class="card-body p-0 d-flex align-items-start">
-              <p class="card-text">Featured Project</p>
+              <p class="card-text text-uppercase">Featured Project</p>
               <div>
-                <span class="badge design-circle icon">d</span>
-                <span class="badge design-circle icon">d</span>
-                <span class="badge support-circle icon">s</span>
-                <span class="badge host-circle icon">h</span>
+                <span class="badge bg-red icon">d</span>
+                <span class="badge bg-orange icon">d</span>
+                <span class="badge bg-green icon">s</span>
+                <span class="badge bg-blue icon">h</span>
               </div>
             </div>
           </div>
           <div class="card d-none d-md-block card4">
-            <img src="images/apple-ipad.jpg" class="card-img-top" alt="iPad Pro with apples">
+            <img src="images/security.jpg" class="card-img-top" alt="iPad Pro with apples">
             <div class="card-body p-0 d-flex align-items-start">
-              <p class="card-text">Featured Project</p>
+              <p class="card-text text-uppercase">Featured Project</p>
               <div>
-                <span class="badge design-circle icon">d</span>
-                <span class="badge design-circle icon">d</span>
-                <span class="badge support-circle icon">s</span>
-                <span class="badge host-circle icon">h</span>
+                <span class="badge bg-red icon">d</span>
+                <span class="badge bg-orange icon">d</span>
+                <span class="badge bg-green icon">s</span>
+                <span class="badge bg-blue icon">h</span>
               </div>
             </div>
           </div>
@@ -132,11 +188,11 @@
         <div class="card d-none d-lg-block mb-3" style="max-width: 540px;">
           <div class="row no-gutters">
             <div class="col-md-3">
-              <img class="aside-image" src="images/mobile-phone.jpg" class="card-img" alt="...">
+              <img class="aside-image" src="images/head.jpg" class="card-img" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body p-0 pl-2">
-                <h5 class="card-title font-anton m-0">The admin bar and absolute positioning</h5>
+                <h5 class="card-title font-anton m-0">Nibbler awesome website testing</h5>
               </div>
             </div>
           </div>
@@ -145,11 +201,11 @@
         <div class="card d-none d-lg-block mb-3" style="max-width: 540px;">
           <div class="row no-gutters">
             <div class="col-md-3">
-              <img class="aside-image" src="images/mobile-phone.jpg" class="card-img" alt="...">
+              <img class="aside-image" src="images/ipad.jpg" class="card-img" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body p-0 pl-2">
-                <h5 class="card-title font-anton m-0">The admin bar and absolute positioning</h5>
+                <h5 class="card-title font-anton m-0">how to get google to like you</h5>
               </div>
             </div>
           </div>
@@ -162,8 +218,7 @@
               </svg>
               <h6 class="pl-2 mb-2 text-uppercase">Last Tweet</h6>
             </div>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus sed iste magnam laboriosam vitae accusantium! Incidunt, hic. </p>
           </div>
         </div>
 
@@ -171,6 +226,8 @@
       </section>
     </div>
   </main>
+
+  
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

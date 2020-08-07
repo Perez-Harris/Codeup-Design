@@ -37,21 +37,6 @@ body {
     justify-content: center;
     flex-grow: 1;
 }
-.circle-section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
-.logo, .circle{
-    width: 108px;
-    height: 108px;
-}
-.circle, .icon {
-    border-radius: 50%;
-    font-family: "Anton", sans-serif;
-}
-
 .circle {
     display: flex;
     justify-content: center;
@@ -59,7 +44,14 @@ body {
     border: 5px solid white;
     margin: 1em;
 }
-
+.circle, .icon {
+    border-radius: 50%;
+    font-family: "Anton", sans-serif;
+}
+.logo, .circle{
+    width: 108px;
+    height: 108px;
+}
 .bg-red {
     background: #e6563b;
 }
@@ -75,12 +67,7 @@ body {
 .bg-blue {
     background: #00aba9;
 }
-.card-section1 {
-    display: flex;
-}
-.card-section2 {
-    display: flex;
-}
+
 .card {
     width: 18rem;
     margin: 1em;
@@ -128,7 +115,6 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        text-align: center;
     }
     ul {
         margin: 0;
@@ -143,11 +129,6 @@ body {
     }
 }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-}
-
-/* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .top-row {
         display: flex;
@@ -162,14 +143,6 @@ body {
         list-style-type: none;
         display: flex;
         justify-content: center;
-    }
-    .cd {
-        margin-left: 1em;
-        flex-grow: 1;
-    }
-    .logo {
-        height: 105px;
-        width: 105px;
     }
    
  }

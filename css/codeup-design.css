@@ -4,6 +4,7 @@ body {
 }
 
 .top-row {
+    position: relative;
     z-index: 50;
 }
 .bg-white {
